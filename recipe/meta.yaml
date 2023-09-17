@@ -1,5 +1,5 @@
 {% set name = "evomsa" %}
-{% set version = "1.9.16" %}
+{% set version = "1.9.17" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/EvoMSA-{{ version }}.tar.gz
-  sha256: 8512599722cbb7e88e336a5629f3e4f5e203ca01775ce36d461e5c0720a05052
+  sha256: 0a3d4db6f0093e292582b8ef33fcf7f88ebdff2870851771a2c9cba5c54e5d60
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
