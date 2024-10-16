@@ -27,6 +27,7 @@ requirements:
     - b4msa
     - evodag
     - python
+    - ingeoml
 
 test:
   imports:
