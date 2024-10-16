@@ -27,7 +27,7 @@ requirements:
     - b4msa
     - evodag
     - python
-    - ingeoml>=0.0.25
+    - ingeoml >=0.0.25
 
 test:
   imports:
