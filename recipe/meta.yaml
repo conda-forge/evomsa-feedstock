@@ -14,7 +14,6 @@ build:
   number: 0
 
 requirements:
-  script: python -m pip install jax
   build:
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
@@ -25,6 +24,7 @@ requirements:
     - pip
     - python
   run:
+    - script: python -m pip install jax optax
     - b4msa
     - evodag
     - python
