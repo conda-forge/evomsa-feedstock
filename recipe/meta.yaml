@@ -24,7 +24,6 @@ requirements:
     - pip
     - python
   run:
-    - script: python -m pip install jax optax
     - b4msa
     - evodag
     - python
