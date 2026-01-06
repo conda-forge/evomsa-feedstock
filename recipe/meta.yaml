@@ -28,6 +28,7 @@ requirements:
     - evodag
     - python
     - ingeoml >=0.0.26
+    - cvxpy
 
 test:
   imports:
