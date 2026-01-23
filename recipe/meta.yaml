@@ -25,6 +25,7 @@ requirements:
     - python
   run:
     - b4msa
+    - cython
     - evodag
     - python
     - ingeoml >=0.0.26
